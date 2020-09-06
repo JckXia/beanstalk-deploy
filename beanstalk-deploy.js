@@ -277,12 +277,12 @@ function main() {
         awsApiRequest.region = strip(region);
     }
 
-    console.log('Beanstalk-Deploy: GitHub Action for deploying to Elastic Beanstalk.');
+    console.log('Beanstalk-Deploy: GitHub Action for deploying to Elastic Beanstalk. Hello from Jack Xia');
     console.log('https://github.com/einaregilsson/beanstalk-deploy');
     console.log('');
 
     if (!awsApiRequest.region) {
-        console.error('Deployment failed: Region not specified!');
+        console.error('Deployment failed: Region not specified! Whoops');
         process.exit(2);
     }
     if (!awsApiRequest.accessKey) {
